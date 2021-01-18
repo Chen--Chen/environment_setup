@@ -1,0 +1,20 @@
+{
+    "editor.rulers": [80],
+    "window.zoomLevel": 0,
+    "sql-formatter.uppercase": true,
+    "keyboard.dispatch": "keyCode",
+    "workbench.editorAssociations": [],
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/K", "C:\\Users\\cheng\\miniconda3\\Scripts\\activate.bat C:\\Users\\cheng\\miniconda3"],
+    "python.condaPath": "C:\\Users\\cheng\\miniconda3\\Scripts\\conda.exe",
+    "sshfs.configs": [
+        {
+            "root": "",
+            "host": "",
+            "port": ,
+            "username": "",
+            "password": "",
+            "name": ""
+        }
+    ]
+}

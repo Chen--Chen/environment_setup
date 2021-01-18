@@ -30,6 +30,33 @@ _________________
 
 ## VScode
 * Download VScode and install following the instructions https://code.visualstudio.com/ 
+* Extensions
+	- Python
+	- SQL Formatter
+	- SSH FS  
+		Open settings: File > Preferences > Settings  
+		Modify user settings.json by searching for the term "json", click "Edit in settings.json" links  
+		{  
+		
+				"sshfs.configs": [
+					{
+						"host": "YOUR_EDGE_NODE.*****.com",  
+						"label": "YOUR_EDGE_NODE",  
+						"name": "YOUR_EDGE_NODE",  
+						"password": "YOUR_PASSWORD",  
+						"root": "/users/YOUR_AID",  
+						"username": "YOUR_AID"
+
+					}
+				],  
+				"editor.rulers": [80],    
+				"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",  
+				"window.zoomLevel": -1,  
+				"sql-formatter.uppercase": true  
+		} 
+	- Hive SQL
+	- Jupyter
+	- Python Docstring Generator
 
 ## Git
 * Download Git and install following the instructions https://git-scm.com/download/win  
